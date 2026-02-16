@@ -1,16 +1,29 @@
 # ElasticDash
 
-ElasticDash is a no-code solution for non-tech people in businesses, allowing them to view, edit and modify the data as required.
-
-This project is planned to be hosted on GitHub and be visible for the members in our private Slack channel. The tech stack and infrastructures would be described here in high-level.
-
-If you have any questions, feel free to send message in this channel!
+ElasticDash is an open-source platform for regression testing of Large Language Model (LLM) applications. It enables you to gather detailed traces of LLM interactions and use them to run automated regression tests, helping you ensure the reliability and quality of your LLM-powered systems as they evolve.
 
 ## Key Features
 
-The key features for this project is to allow the people access, manage and modify data easily, without the need of SQL skills or the help from developers.
+- **LLM Tracing SDKs**: Instrument your Python or JavaScript/TypeScript applications to capture granular traces of LLM calls, tool executions, and custom logic for regression testing.
+- **Centralized Logger**: Store and manage all traces in a scalable backend, powered by ClickHouse for high-performance analytics.
+- **Automated Regression Testing**: Run automated regression tests on gathered traces and test cases, surfacing results in a user-friendly dashboard.
+- **Dashboard for Test Management**: Explore, filter, and analyze traces, test cases, and test runs to monitor regression and quality over time.
+- **Open Architecture**: Modular components for logger, backend, and dashboard, allowing flexible deployment and integration into your stack.
 
-The users of this project is likely those who have no technical background but still need to access data for their daily work. This can be the business owners of small firms who wish to monitor the performance of the business, the UI designers who wish to see the user behaviours of the current user flow, and so on.
+## Use Cases
+
+- Automated regression testing for LLM-powered applications
+- Monitoring for regressions and quality issues as models or prompts change
+- Running and managing test cases for LLM outputs
+- Auditing and compliance for AI-driven systems
+
+## Getting Started
+
+1. Deploy the ElasticDash Logger to start collecting traces from your applications.
+2. Integrate the ElasticDash SDK into your LLM app for seamless trace collection.
+3. Deploy the backend and dashboard to run regression tests and visualize results.
+
+See the documentation in [our documentation](https://github.com/ElasticDash/ElasticDash-Doc) for detailed setup and usage instructions.
 
 ## Collaborate with Us
 
